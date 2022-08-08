@@ -1,4 +1,5 @@
-# Yii2 SMS
+# yii2-sms
+A copy of https://github.com/wadeshuler/yii2-sms since it has discontinued now
 
 This is the base library for providing SMS support in your Yii2 application. You can make your own plugins for SMS providers off this base package. It is not to be directly used.
 
