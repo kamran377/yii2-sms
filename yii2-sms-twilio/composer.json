@@ -1,0 +1,26 @@
+{
+    "name": "kamran377/yii2-sms-twilio",
+    "description": "A Twilio SMS plugin for Yii2 based off my base package, Yii2 SMS, to make sending SMS messages as easy as emails!",
+    "keywords": ["yii2", "sms", "yii2 sms", "text message", "twilio", "yii2 twilio"],
+    "homepage": "https://github.com/kamran377/yii2-sms-twilio",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kamran Ali",
+            "email": "kamran_ali@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8...0",
+        "yiisoft/yii2": "~2.0.11",
+        "twilio/sdk": "^5.11",
+        "kamran377/yii2-sms": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "kamran377\\sms\\twilio\\": "src"
+        }
+    }
+}
